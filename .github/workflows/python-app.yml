@@ -29,4 +29,5 @@ jobs:
         pip install requests
     - name: Run Code
       run: |
-        ./run.py
+        chmod +x ./run.py
+        python ./run.py
